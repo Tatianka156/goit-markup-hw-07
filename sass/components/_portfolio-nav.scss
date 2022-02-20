@@ -1,0 +1,29 @@
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.container {
+  @extend%container;
+}
+
+.all-buttons {
+  min-width: 661px;
+  margin: 0 auto;
+  margin-bottom: 56px;
+
+  text-align: center;
+
+  @extend%flex-center;
+}
+
+.order-1 + .order-1 {
+  margin-left: 8px;
+}
+
+.order-1 {
+  list-style-type: none;
+  text-decoration: none;
+  background-color: $main-background-color;
+  color: $main-color-text;
+}
