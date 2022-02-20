@@ -1,0 +1,54 @@
+.contact {
+  display: flex;
+  margin-left: auto;
+
+  .each-contact {
+    color: $main-background-color;
+  }
+
+  & .each-contact + .each-contact {
+    margin-left: 30px;
+  }
+}
+
+.link-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: $second-color-text;
+  text-decoration: none;
+  list-style-type: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link-contact {
+  @extend %flex-center;
+}
+
+.link:hover,
+.link:focus,
+.link-contact:focus,
+.link-contact:hover,
+.footer:hover,
+.footer:focus,
+.footer-contact:focus,
+.footer-contact:hover {
+  color: #2196f3;
+}
+
+.envelope {
+  width: 16px;
+  height: 12px;
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.smartphone {
+  width: 10px;
+  height: 16px;
+  fill: currentColor;
+  margin-right: 10px;
+}

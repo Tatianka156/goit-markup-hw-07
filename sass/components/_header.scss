@@ -1,0 +1,11 @@
+.menu {
+  border-bottom: 1px solid #ececec;
+}
+
+.main-nav {
+  @extend%flex-center;
+}
+
+.container {
+  @extend%container;
+}
