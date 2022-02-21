@@ -258,6 +258,11 @@ nav {
   margin-top: 10px;
 }
 
+.common {
+  display: flex;
+  align-items: baseline;
+}
+
 .footer-logo-contact {
   display: block;
 }
